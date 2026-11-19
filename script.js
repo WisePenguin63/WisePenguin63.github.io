@@ -120,7 +120,7 @@ function contactFormSubmit(event){
   event.preventDefault()
   var subject = document.getElementById("emailFormSubject").value
   var body = document.getElementById("emailFormBody").value
-  var mailto = `mailto:swindlehurstw20@josephwhitaker.org?subject=Website%20Contact%20Form: ${subject}&body=${body}`
+  var mailto = `mailto:swindlehurstw20@outlook.com?subject=Website%20Contact%20Form: ${subject}&body=${body}`
   window.location.href = mailto
 }
 
